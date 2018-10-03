@@ -1,5 +1,7 @@
 # TODO
 
+**Any suggestions? Feel free to add your own suggestions and improvements to this list.**
+
 - lazy formatting, save parameters in a struct, by reference if possible
     - write to stream directly when applying `operator<<` to format
     - write to stringstream in `operator std::string`

@@ -1,7 +1,7 @@
 # StaticFormat
 A simple formatting library. The format-string is parsed at compile-time by using template-meta-programming, to guarantee the best performance. No need to do extra work at runtime. It uses a GNU-extension to achieve this, it works with GCC and Clang.
 
-```
+```c++
 #include <iostream>
 #include "static_format.hpp"
 
@@ -16,7 +16,7 @@ int main() {
 
 This gets transformed to something like this:
 
-```
+```c++
 #include <iostream>
 #include <string>
 #include <sstream>
